@@ -5,13 +5,51 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repository-drishti--rakshak--ai-00FF88?style=for-the-badge&logo=github&logoColor=black" />
+  <a href="https://github.com/akhileshchaubey51/drishti-rakshak-ai/raw/main/releases/DrishtiRakshak-Owner.apk">
+    <img src="https://img.shields.io/badge/Download-Owner%20App%20(v1.0%20APK)-00FF88?style=for-the-badge&logo=android&logoColor=black" />
+  </a>
+  <a href="https://github.com/akhileshchaubey51/drishti-rakshak-ai/raw/main/releases/DrishtiRakshak-Monitor.apk">
+    <img src="https://img.shields.io/badge/Download-Monitor%20App%20(v1.0%20APK)-7C3AED?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
   <img src="https://img.shields.io/badge/Platform-Android%20Native-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Language-Kotlin%20%2F%20Java-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/AI%20Vision-MobileNet%20%2B%20ZNCC-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloud-Cloudinary%20%2B%20Firestore-3448C5?style=for-the-badge&logo=firebase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streaming-MJPEG%20Port%208080-00FF88?style=for-the-badge" />
 </p>
+
+---
+
+## 📥 Direct APK Downloads (No Laptop / USB Cable Required)
+
+Anyone can install the system directly on their phone using the pre-compiled APK packages below:
+
+| Application | Role & Target Device | Direct Download Link | Size |
+| :--- | :--- | :---: | :---: |
+| 📲 **Owner App** (`owner-app`) | Personal Smartphone (Dashboard, Live CCTV Stream, Siren, Alert Zoom) | [⬇️ **Download DrishtiRakshak-Owner.apk**](https://github.com/akhileshchaubey51/drishti-rakshak-ai/raw/main/releases/DrishtiRakshak-Owner.apk) | `12.5 MB` |
+| 📷 **Monitor App** (`SmartHomeSecurity_Final_monitoring`) | Dedicated Camera Device (CameraX AI, Face Detection, Siren Alarm, MJPEG Server) | [⬇️ **Download DrishtiRakshak-Monitor.apk**](https://github.com/akhileshchaubey51/drishti-rakshak-ai/raw/main/releases/DrishtiRakshak-Monitor.apk) | `33.5 MB` |
+
+> 💡 **Quick Install:** Simply open this GitHub page on your smartphone browser, tap the download links above, and select **Install**!
+
+---
+
+## 🔴 Live Proof of Concept (How to Demonstrate Live)
+
+The system can be tested and demonstrated in real-time in two powerful ways:
+
+### ⚡ Proof 1: Real-Time Cloud Intruder Alert (Works Anywhere Over Internet)
+1. Install **`DrishtiRakshak-Monitor.apk`** on a mounted phone (connected to Wi-Fi or Mobile Data).
+2. Install **`DrishtiRakshak-Owner.apk`** on your personal phone (even if you are 10 km away on 4G/5G).
+3. Walk in front of the monitoring camera as an unregistered person:
+   - Monitoring camera detects the face and renders a **Red Bounding Reticle** (`UNKNOWN INTRUDER`).
+   - High-resolution photo snapshot is captured and uploaded to Cloudinary CDN.
+   - Metadata is dispatched to Firebase Firestore in **< 1 second**.
+   - Your personal phone **rings with a police siren alarm** and displays a heads-up push notification: `🚨 INTRUDER ALERT! Unknown Person Detected`.
+   - Tap the alert to open the **Forensic Zoom Viewer** where you can pinch-to-zoom and inspect the intruder's face in high definition!
+
+### 📹 Proof 2: 24/7 Live CCTV MJPEG Video Stream (Local LAN / Hotspot)
+1. Turn on Mobile Hotspot on one phone and connect the other phone to it (or connect both to home Wi-Fi).
+2. The monitoring app displays its local streaming IP on screen: `http://<IP>:8080/video`.
+3. In the Owner App, tap the settings cog ⚙️ and enter the IP.
+4. Tap **"LIVE CCTV"** on the dashboard: The live 60 FPS video feed streams directly to your phone screen with sub-100ms latency!
 
 ---
 
@@ -82,13 +120,16 @@ drishti-rakshak-ai/
 │       ├── 04_alert_log_zoom_preview.svg
 │       ├── 05_authorized_members_management.svg
 │       └── 06_app_launcher_branding.svg
+├── 📁 releases/                                 # Ready-to-Install Production APKs
+│   ├── DrishtiRakshak-Owner.apk                # 12.5 MB Owner Command App
+│   └── DrishtiRakshak-Monitor.apk              # 33.5 MB CCTV Sentinel App
 ├── 📁 SmartHomeSecurity_Final_monitoring/       # CCTV Monitoring Android Node
 │   ├── app/src/main/java/                      # CameraX, MobileNet, ZNCC matcher, MJPEG stream server
 │   └── app/src/main/res/                       # HUD reticles, scanner beam animation, launcher icons
 ├── 📁 owner-app/                                # Owner Command Smartphone App
 │   ├── app/src/main/java/                      # Dashboard, Room SQLite, Firestore Sync, ZoomableImageView
 │   └── app/src/main/res/                       # Guardian shield launcher icon, alert log layout
-├── 📄 .gitignore                               # Clean exclusion of build/gradle binaries
+├── 📄 .gitignore                               # Clean exclusion of intermediate build binaries
 ├── 📄 LICENSE                                  # MIT Open Source License
 └── 📄 README.md                                # Project documentation & GitHub showcase
 ```
@@ -108,29 +149,6 @@ drishti-rakshak-ai/
 | **Realtime Sync** | Firebase Firestore & Auth | Sub-second snapshot events emitted to Owner device via anonymous auth |
 | **Local Cache** | Android Jetpack Room SQLite | Full offline persistence and history with manual / auto sync purge |
 | **Forensic Zoom** | Custom `ZoomableImageView` | Matrix-based multi-touch pinch-to-zoom and pan for intruder inspection |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio Hedgehog (2023.1.1) or later
-- Two Android Devices (Android 8.0+ / API 26+)
-- A free Firebase Project with Cloud Firestore enabled
-- A Cloudinary account for photo hosting
-
-### 1. Monitor App Setup (`SmartHomeSecurity_Final_monitoring`)
-1. Open the project in Android Studio.
-2. Place your `google-services.json` inside `app/`.
-3. Connect your monitoring phone via USB or Wi-Fi ADB and click **Run ▶**.
-4. Position the phone overlooking the door or entryway. Note the displayed IP address (e.g., `http://192.168.1.105:8080/video`).
-
-### 2. Owner App Setup (`owner-app`)
-1. Open `owner-app` in Android Studio.
-2. Place `google-services.json` in `app/`.
-3. Install the app on your everyday smartphone and click **Run ▶**.
-4. In the app settings (cog icon), enter the IP of the Monitor Camera to enable the live stream.
-5. Register authorized family members via the **Authorized Members** screen.
 
 ---
 
