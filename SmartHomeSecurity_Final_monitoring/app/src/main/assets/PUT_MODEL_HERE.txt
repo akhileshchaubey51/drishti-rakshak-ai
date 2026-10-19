@@ -1,0 +1,1 @@
+Copy your real efficientdet-lite0.tflite model file into this assets folder. This text file is not a model.

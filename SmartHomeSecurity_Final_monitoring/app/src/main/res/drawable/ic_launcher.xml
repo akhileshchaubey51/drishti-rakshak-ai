@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark High-Tech Background -->
+    <path
+        android:fillColor="#0D111A"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Subtle Tech Purple Radar Outer Ring -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"
+        android:pathData="M54,14 A40,40 0 1,0 54.1,14"/>
+
+    <!-- Smart Home Villa Roof (Light Purple) -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,46 L54,23 L84,46"/>
+
+    <!-- Security Shield / Home Base Frame (Light Purple) -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,46 L30,68 C30,78 42,86 54,89 C66,86 78,78 78,68 L78,46"/>
+
+    <!-- Live Radar / Signal Beams (Light Green) -->
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M46,35 C51,32 57,32 62,35"/>
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M40,29 C48,24 60,24 68,29"/>
+
+    <!-- CCTV Surveillance Outer Eyeball Housing (White) -->
+    <path
+        android:fillColor="#151D2A"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:pathData="M54,41 A17,17 0 1,0 54.1,41 Z"/>
+
+    <!-- CCTV Sensor Aperture Ring (Light Purple Accent) -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="1.5"
+        android:pathData="M54,45 A13,13 0 1,0 54.1,45 Z"/>
+
+    <!-- Smart AI Camera Lens Pupil (Light Green) -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,49 A9,9 0 1,0 54.1,49 Z"/>
+
+    <!-- Specular Lens Glass Reflection (Pure White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,54 A3,3 0 1,0 51.1,54 Z"/>
+
+    <!-- Active Perimeter Guard LED (Light Green) -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,78 A3,3 0 1,0 54.1,78 Z"/>
+
+</vector>

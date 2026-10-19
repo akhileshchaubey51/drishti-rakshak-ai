@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550">
+  <defs>
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A10" />
+      <stop offset="100%" stop-color="#121826" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151A29" />
+      <stop offset="100%" stop-color="#0E121E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="550" fill="url(#brandBg)" />
+
+  <g transform="translate(60, 40)">
+    <text x="0" y="24" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">APP ICONS &amp; BRANDING SUITE</text>
+    <text x="0" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="800">DrishtiRakshak AI • Android Launcher Icons</text>
+    <text x="0" y="78" fill="#94A3B8" font-family="sans-serif" font-size="14">Cohesive Design System: Light Green (#00FF88) • Light Purple (#A78BFA) • Pure White (#FFFFFF)</text>
+  </g>
+
+  <g transform="translate(60, 140)">
+    <rect width="360" height="360" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+    <rect x="0" y="0" width="360" height="6" rx="3" fill="#00FF88" />
+
+    <g transform="translate(120, 45)">
+      <rect width="120" height="120" rx="28" fill="#0D111A" stroke="#334155" stroke-width="1.5" />
+      <circle cx="60" cy="60" r="44" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-opacity="0.4" />
+      <path d="M 28,52 L 60,26 L 92,52" stroke="#A78BFA" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <path d="M 34,52 L 34,74 C 34,86 46,94 60,98 C 74,94 86,86 86,74 L 86,52" stroke="#A78BFA" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <path d="M 50,40 C 56,36 64,36 70,40" stroke="#00FF88" stroke-width="2.5" stroke-linecap="round" fill="none" />
+      <path d="M 44,33 C 54,28 66,28 76,33" stroke="#00FF88" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+      <circle cx="60" cy="64" r="18" fill="#151D2A" stroke="#FFFFFF" stroke-width="3" />
+      <circle cx="60" cy="64" r="13" fill="none" stroke="#A78BFA" stroke-width="1.5" />
+      <circle cx="60" cy="64" r="9" fill="#00FF88" />
+      <circle cx="56" cy="60" r="3.2" fill="#FFFFFF" />
+      <circle cx="60" cy="86" r="3" fill="#00FF88" />
+    </g>
+
+    <text x="180" y="200" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">Smart Home Security</text>
+    <text x="180" y="220" text-anchor="middle" fill="#00FF88" font-family="sans-serif" font-size="12" font-weight="700">CCTV SENTINEL EYE</text>
+
+    <g transform="translate(30, 245)" font-family="sans-serif" font-size="11">
+      <rect width="300" height="32" rx="6" fill="#0B0F19" />
+      <text x="12" y="20" fill="#94A3B8">Role:</text>
+      <text x="50" y="20" fill="#FFFFFF" font-weight="600">Surveillance Camera &amp; AI Edge Node</text>
+
+      <rect y="40" width="300" height="32" rx="6" fill="#0B0F19" />
+      <text x="12" y="60" fill="#94A3B8">Visual:</text>
+      <text x="56" y="60" fill="#A78BFA" font-weight="600">Villa Shield + Camera Lens + Radar</text>
+    </g>
+  </g>
+
+  <g transform="translate(480, 140)">
+    <rect width="360" height="360" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+    <rect x="0" y="0" width="360" height="6" rx="3" fill="#A78BFA" />
+
+    <g transform="translate(120, 45)">
+      <rect width="120" height="120" rx="28" fill="#0D111A" stroke="#334155" stroke-width="1.5" />
+      <circle cx="60" cy="60" r="46" fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-opacity="0.35" />
+      <path d="M 60,20 L 28,30 L 28,66 C 28,84 46,96 60,100 C 74,96 92,84 92,66 L 92,30 Z" fill="#161926" stroke="#A78BFA" stroke-width="3.5" stroke-linejoin="round" />
+      <path d="M 60,26 L 34,35 L 34,64 C 34,78 48,88 60,92 C 72,88 86,78 86,64 L 86,35 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.6" stroke-linejoin="round" />
+
+      <path d="M 51,28 C 56,25 64,25 69,28" stroke="#00FF88" stroke-width="2.2" stroke-linecap="round" fill="none" />
+      <path d="M 42,50 L 60,33 L 78,50" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <line x1="72" y1="40" x2="72" y2="36" stroke="#00FF88" stroke-width="2" />
+
+      <circle cx="60" cy="64" r="13" fill="#0D111A" stroke="#00FF88" stroke-width="2.6" />
+      <path d="M 57.5,63 C 57.5,61.6 58.6,60.5 60,60.5 C 61.4,60.5 62.5,61.6 62.5,63 C 62.5,64 61.8,64.8 61,65.3 L 61.5,70 L 58.5,70 L 59,65.3 C 58.2,64.8 57.5,64 57.5,63 Z" fill="#00FF88" />
+
+      <line x1="45" y1="76" x2="75" y2="76" stroke="#A78BFA" stroke-width="1.8" stroke-opacity="0.8" stroke-linecap="round" />
+      <path d="M 50,76 L 50,80 L 54,80" stroke="#00FF88" stroke-width="1.6" fill="none" />
+      <path d="M 70,76 L 70,80 L 66,80" stroke="#00FF88" stroke-width="1.6" fill="none" />
+
+      <circle cx="106" cy="18" r="12" fill="#EF4444" stroke="#0D111A" stroke-width="2" />
+      <text x="106" y="22" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="900">1</text>
+    </g>
+
+    <text x="180" y="200" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">HomeSentinel Owner</text>
+    <text x="180" y="220" text-anchor="middle" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="700">GUARDIAN MASTER SHIELD</text>
+
+    <g transform="translate(30, 245)" font-family="sans-serif" font-size="11">
+      <rect width="300" height="32" rx="6" fill="#0B0F19" />
+      <text x="12" y="20" fill="#94A3B8">Role:</text>
+      <text x="50" y="20" fill="#FFFFFF" font-weight="600">Owner Smartphone Command &amp; Control</text>
+
+      <rect y="40" width="300" height="32" rx="6" fill="#0B0F19" />
+      <text x="12" y="60" fill="#94A3B8">Visual:</text>
+      <text x="56" y="60" fill="#00FF88" font-weight="600">Master Shield + Lock + Circuit Scan</text>
+    </g>
+  </g>
+</svg>

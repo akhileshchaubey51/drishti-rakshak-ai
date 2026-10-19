@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HomeSentinel Owner</string>
+    <string name="title_dashboard">SECURITY DASHBOARD</string>
+    <string name="system_armed">SYSTEM ARMED</string>
+    <string name="system_disarmed">SYSTEM DISARMED</string>
+    <string name="btn_live_cctv">Live CCTV 24/7</string>
+    <string name="btn_alert_history">Alert Log</string>
+    <string name="btn_authorized_faces">Authorized Persons</string>
+    <string name="btn_remote_siren">REMOTE SIREN PANIC</string>
+    <string name="btn_silence_siren">SILENCE SIREN</string>
+    <string name="btn_arm_system">Arm System</string>
+    <string name="btn_disarm_system">Disarm System</string>
+    <string name="connect_monitor">Configure Monitor IP</string>
+    <string name="status_connected">Connected • Streaming</string>
+    <string name="status_disconnected">Offline • Reconnecting</string>
+</resources>

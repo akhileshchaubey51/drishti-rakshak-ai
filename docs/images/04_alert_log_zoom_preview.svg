@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" width="800" height="720">
+  <defs>
+    <linearGradient id="modalBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181D2E" />
+      <stop offset="100%" stop-color="#0F1320" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="720" fill="#06080F" />
+
+  <g transform="translate(40, 30)">
+    <text x="0" y="24" fill="#EF4444" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">SCREENSHOT 03 • FORENSIC EVIDENCE VIEWER</text>
+    <text x="0" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="800">Alert Log &amp; Pinch-To-Zoom Inspection</text>
+    <text x="0" y="78" fill="#94A3B8" font-family="sans-serif" font-size="14">Full Resolution Snapshot Modal with Interactive Zoom, Pan, Confidence &amp; Timestamp Details</text>
+  </g>
+
+  <g transform="translate(230, 100)">
+    <rect x="0" y="0" width="340" height="600" rx="36" fill="#1E2333" stroke="#334155" stroke-width="3" />
+    <rect x="8" y="8" width="324" height="584" rx="28" fill="#0B0E17" />
+
+    <rect x="120" y="14" width="100" height="12" rx="6" fill="#0B0D14" />
+    <circle cx="205" cy="20" r="3.5" fill="#1E293B" />
+
+    <g transform="translate(18, 36)" opacity="0.25">
+      <text x="0" y="16" fill="#FFFFFF" font-family="serif" font-size="16" font-weight="800">INTRUSION ALERTS</text>
+      <g transform="translate(0, 35)">
+        <rect width="304" height="65" rx="10" fill="#151A29" stroke="#EF4444" stroke-width="1" />
+        <rect x="10" y="10" width="45" height="45" rx="6" fill="#334155" />
+        <text x="65" y="26" fill="#EF4444" font-family="sans-serif" font-size="11" font-weight="700">🚨 UNKNOWN PERSON</text>
+        <text x="65" y="42" fill="#FFFFFF" font-family="sans-serif" font-size="11">Front Gate (Reported)</text>
+        <text x="65" y="54" fill="#94A3B8" font-family="sans-serif" font-size="9">19 Oct, 12:45:10 PM</text>
+      </g>
+      <g transform="translate(0, 110)">
+        <rect width="304" height="65" rx="10" fill="#151A29" stroke="#334155" stroke-width="1" />
+        <rect x="10" y="10" width="45" height="45" rx="6" fill="#334155" />
+        <text x="65" y="26" fill="#EF4444" font-family="sans-serif" font-size="11" font-weight="700">🚨 UNKNOWN PERSON</text>
+        <text x="65" y="42" fill="#FFFFFF" font-family="sans-serif" font-size="11">Side Alley (Reported)</text>
+        <text x="65" y="54" fill="#94A3B8" font-family="sans-serif" font-size="9">19 Oct, 11:20:05 AM</text>
+      </g>
+    </g>
+
+    <g transform="translate(16, 60)">
+      <rect width="308" height="505" rx="18" fill="url(#modalBg)" stroke="#A78BFA" stroke-width="1.5" />
+      <rect x="134" y="10" width="40" height="4" rx="2" fill="#475569" />
+
+      <rect x="16" y="24" width="130" height="22" rx="11" fill="#7F1D1D" stroke="#EF4444" stroke-width="1" />
+      <circle cx="26" cy="35" r="3.5" fill="#EF4444" />
+      <text x="36" y="39" fill="#FCA5A5" font-family="sans-serif" font-size="9" font-weight="800">🚨 INTRUDER ALERT</text>
+
+      <text x="16" y="68" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="800">Person Detected - Front Gate</text>
+      <text x="16" y="86" fill="#94A3B8" font-family="sans-serif" font-size="11">Confidence: 94.2% • Siren Triggered</text>
+
+      <g transform="translate(16, 100)">
+        <rect width="276" height="240" rx="12" fill="#070911" stroke="#334155" stroke-width="1" />
+        <circle cx="138" cy="110" r="45" fill="#1E293B" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="4,3" />
+        <path d="M 105,185 C 105,150 171,150 171,185 Z" fill="#1E293B" />
+        <line x1="138" y1="50" x2="138" y2="170" stroke="#EF4444" stroke-opacity="0.4" stroke-width="1" />
+        <line x1="78" y1="110" x2="198" y2="110" stroke="#EF4444" stroke-opacity="0.4" stroke-width="1" />
+
+        <rect x="58" y="196" width="160" height="26" rx="13" fill="#000000" fill-opacity="0.8" stroke="#00FF88" stroke-width="1" />
+        <text x="138" y="213" text-anchor="middle" fill="#00FF88" font-family="sans-serif" font-size="10" font-weight="700">🔍 PINCH TO ZOOM &amp; PAN</text>
+      </g>
+
+      <g transform="translate(16, 352)">
+        <rect width="276" height="42" rx="8" fill="#121624" stroke="#334155" stroke-width="1" />
+        <text x="12" y="18" fill="#94A3B8" font-family="sans-serif" font-size="10">Captured Timestamp:</text>
+        <text x="12" y="32" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="600">Monday, 19 Oct 2026 • 12:45:10 PM</text>
+        <rect x="210" y="12" width="56" height="18" rx="4" fill="#064E3B" />
+        <text x="217" y="25" fill="#00FF88" font-family="sans-serif" font-size="9" font-weight="700">CLOUD CDN</text>
+      </g>
+
+      <g transform="translate(16, 406)">
+        <rect width="132" height="40" rx="8" fill="#1E293B" stroke="#475569" stroke-width="1" />
+        <text x="66" y="25" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">CLOSE</text>
+        <rect x="144" width="132" height="40" rx="8" fill="#DC2626" />
+        <text x="210" y="25" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">SOUND SIREN 🚨</text>
+      </g>
+
+      <text x="154" y="475" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="10">Swipe down or tap close to exit</text>
+    </g>
+  </g>
+</svg>

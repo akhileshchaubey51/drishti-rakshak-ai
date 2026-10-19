@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top Header Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="@color/bg_card">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_shield"
+                android:contentDescription="Shield" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOMESENTINEL OWNER"
+                    android:textColor="@color/text_white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/tvMonitorIpStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connected to Monitor • 192.168.1.100:8080"
+                    android:textColor="@color/accent_green_light"
+                    android:textSize="11sp"
+                    android:fontFamily="serif" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_camera"
+                android:contentDescription="Settings" />
+        </LinearLayout>
+
+        <!-- System Arm/Disarm Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/bg_card_purple">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSystemState"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/system_armed"
+                            android:textColor="@color/neon_green"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:fontFamily="serif" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Surveillance &amp; AI Face Radar Active"
+                            android:textColor="@color/text_light_gray"
+                            android:textSize="12sp"
+                            android:fontFamily="serif" />
+                    </LinearLayout>
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/switchArmSystem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Live CCTV Preview Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLivePreview"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/bg_card">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Real-world Smart Modern Home Security Architecture Visual / Snapshot -->
+                <ImageView
+                    android:id="@+id/ivLatestIntruderSnapshot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home_security_modern"
+                    android:contentDescription="Smart Home Surveillance" />
+
+                <!-- Dark gradient overlay for ultra-crisp readable badges -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/overlay_black_gradient" />
+
+                <!-- Reticle Border -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/viewfinder_border" />
+
+                <!-- Animated High-Tech Radar Scanning Beam -->
+                <View
+                    android:id="@+id/viewScannerBeam"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:background="@drawable/scanner_beam" />
+
+                <!-- Top Left Status Pill: Light Green + Dark Glass -->
+                <TextView
+                    android:id="@+id/tvLivePill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|start"
+                    android:layout_margin="14dp"
+                    android:text="● 24/7 PERIMETER SECURED"
+                    android:textColor="#00FF88"
+                    android:textStyle="bold"
+                    android:textSize="11sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="5dp"
+                    android:background="@drawable/badge_status_active"
+                    android:fontFamily="serif" />
+
+                <!-- Top Right AI Shield Badge: Light Purple + White -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|end"
+                    android:layout_margin="14dp"
+                    android:text="🛡️ AI GUARD"
+                    android:textColor="#A78BFA"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:background="#DD1E1B4B"
+                    android:fontFamily="serif" />
+
+                <!-- Bottom Action Banner: Light Purple gradient + Crisp White -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:text="📡 Tap to Open Fullscreen Live CCTV"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/bg_gradient_card"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="5dp"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Emergency Remote Siren Panic Button -->
+        <Button
+            android:id="@+id/btnRemoteSiren"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="14dp"
+            android:text="@string/btn_remote_siren"
+            android:textColor="@color/text_white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_red_rounded"
+            android:fontFamily="serif" />
+
+        <!-- Navigation Action Buttons Grid -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnNavAlerts"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="@string/btn_alert_history"
+                android:textColor="@color/text_white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_purple_rounded"
+                android:fontFamily="serif" />
+
+            <Button
+                android:id="@+id/btnNavAuthorized"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/btn_authorized_faces"
+                android:textColor="@color/text_white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_green_rounded"
+                android:fontFamily="serif" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

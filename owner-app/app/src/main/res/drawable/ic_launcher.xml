@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark High-Tech Background -->
+    <path
+        android:fillColor="#0D111A"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Subtle Tech Purple Radar Outer Orbit -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.35"
+        android:pathData="M54,12 A42,42 0 1,0 54.1,12"/>
+
+    <!-- Master Guardian Shield Outer Body (Light Purple) -->
+    <path
+        android:fillColor="#161926"
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="3.2"
+        android:strokeLineJoin="round"
+        android:pathData="M54,18 L24,28 L24,60 C24,76 40,86 54,90 C68,86 84,76 84,60 L84,28 Z"/>
+
+    <!-- Inner Shield Precision Border (Crisp White Glow) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"
+        android:strokeLineJoin="round"
+        android:pathData="M54,23 L29,32 L29,58 C29,71 41,80 54,84 C67,80 79,71 79,58 L79,32 Z"/>
+
+    <!-- Live Wireless Perimeter Waves (Light Green) -->
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M46,26 C51,23 57,23 62,26"/>
+
+    <!-- Smart Villa Roof Structure (Crisp White) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M37,45 L54,30 L71,45"/>
+
+    <!-- Villa Signal Antenna (Light Green) -->
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M64,36 L64,32"/>
+
+    <!-- Master Security Lock Housing (Deep Tech Plate & Light Green Border) -->
+    <path
+        android:fillColor="#0D111A"
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2.4"
+        android:pathData="M54,46 A11.5,11.5 0 1,0 54.1,46 Z"/>
+
+    <!-- Central Keyhole / AI Core Node (Light Green) -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M51.5,56 C51.5,54.6 52.6,53.5 54,53.5 C55.4,53.5 56.5,54.6 56.5,56 C56.5,57 55.8,57.8 55,58.3 L55.5,62.5 L52.5,62.5 L53,58.3 C52.2,57.8 51.5,57 51.5,56 Z"/>
+
+    <!-- Cyber Circuit Scan Grid (Light Purple & Light Green) -->
+    <path
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="1.6"
+        android:strokeAlpha="0.75"
+        android:strokeLineCap="round"
+        android:pathData="M40,68 L68,68"/>
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,68 L44,72 L49,72"/>
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M64,68 L64,72 L59,72"/>
+
+    <!-- Master Guard Active Status LED (Light Green) -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,77 A2.5,2.5 0 1,0 54.1,77 Z"/>
+
+</vector>

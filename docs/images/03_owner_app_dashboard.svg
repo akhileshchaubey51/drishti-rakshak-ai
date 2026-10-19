@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720" width="800" height="720">
+  <defs>
+    <linearGradient id="ownerPhoneBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E111B" />
+      <stop offset="100%" stop-color="#070911" />
+    </linearGradient>
+    <linearGradient id="heroCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B1733" />
+      <stop offset="100%" stop-color="#0D1627" />
+    </linearGradient>
+    <linearGradient id="btnPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D28D9" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <linearGradient id="btnRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+    <linearGradient id="btnGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="btnCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="720" fill="#06080F" />
+
+  <g transform="translate(40, 30)">
+    <text x="0" y="24" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">SCREENSHOT 02 • OWNER COMMAND CENTER</text>
+    <text x="0" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="800">Owner App • Security Dashboard</text>
+    <text x="0" y="78" fill="#94A3B8" font-family="sans-serif" font-size="14">Real-Time Perimeter Status, Live CCTV LAN Feed, Remote Siren &amp; Alert Log Access</text>
+  </g>
+
+  <g transform="translate(230, 100)">
+    <rect x="0" y="0" width="340" height="600" rx="36" fill="#1E2333" stroke="#334155" stroke-width="3" />
+    <rect x="8" y="8" width="324" height="584" rx="28" fill="url(#ownerPhoneBg)" />
+
+    <rect x="120" y="14" width="100" height="12" rx="6" fill="#0B0D14" />
+    <circle cx="205" cy="20" r="3.5" fill="#1E293B" />
+
+    <g transform="translate(20, 36)">
+      <circle cx="16" cy="16" r="16" fill="#7C3AED" fill-opacity="0.2" stroke="#A78BFA" stroke-width="1.2" />
+      <text x="16" y="22" text-anchor="middle" font-size="14">🛡️</text>
+      <text x="40" y="16" fill="#FFFFFF" font-family="serif" font-size="16" font-weight="800">DrishtiRakshak</text>
+      <text x="40" y="28" fill="#A78BFA" font-family="serif" font-size="10" font-weight="700">OWNER COMMAND CENTER</text>
+      <rect x="264" y="2" width="30" height="30" rx="8" fill="#151A29" stroke="#334155" stroke-width="1" />
+      <text x="279" y="22" text-anchor="middle" font-size="14">⚙️</text>
+    </g>
+
+    <g transform="translate(20, 78)">
+      <rect width="300" height="26" rx="13" fill="#064E3B" stroke="#00FF88" stroke-width="1" />
+      <circle cx="14" cy="13" r="4" fill="#00FF88" />
+      <text x="26" y="17" fill="#00FF88" font-family="sans-serif" font-size="10" font-weight="800" letter-spacing="1">● 24/7 PERIMETER SECURED</text>
+      <text x="210" y="17" fill="#FFFFFF" font-family="sans-serif" font-size="10">Cloud Synced</text>
+    </g>
+
+    <g transform="translate(20, 114)">
+      <rect width="300" height="165" rx="16" fill="url(#heroCardGrad)" stroke="#A78BFA" stroke-width="1.5" />
+      <path d="M 20,130 L 60,95 L 100,130 L 150,105 L 190,130 L 235,90 L 280,130" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" fill="none" />
+      <line x1="10" y1="100" x2="290" y2="100" stroke="#00FF88" stroke-width="2" opacity="0.8" />
+      <rect x="14" y="14" width="130" height="22" rx="11" fill="#000000" fill-opacity="0.8" stroke="#00FF88" stroke-width="1" />
+      <circle cx="24" cy="25" r="3.5" fill="#00FF88" />
+      <text x="34" y="29" fill="#00FF88" font-family="sans-serif" font-size="9" font-weight="800">CCTV LIVE READY</text>
+      <text x="14" y="130" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="800">Front Entrance Camera</text>
+      <text x="14" y="146" fill="#A78BFA" font-family="sans-serif" font-size="10">Tap 'Live View' to stream MJPEG at 60 FPS</text>
+    </g>
+
+    <g transform="translate(20, 288)">
+      <rect width="300" height="34" rx="8" fill="#131726" stroke="#334155" stroke-width="1" />
+      <text x="12" y="22" fill="#94A3B8" font-family="sans-serif" font-size="10">Monitor CCTV:</text>
+      <text x="95" y="22" fill="#00FF88" font-family="monospace" font-size="11" font-weight="700">192.168.1.105:8080</text>
+      <rect x="235" y="8" width="55" height="18" rx="4" fill="#064E3B" />
+      <text x="242" y="21" fill="#00FF88" font-family="sans-serif" font-size="9" font-weight="700">ONLINE</text>
+    </g>
+
+    <g transform="translate(20, 332)">
+      <g transform="translate(0, 0)">
+        <rect width="144" height="110" rx="14" fill="url(#btnPurple)" />
+        <circle cx="30" cy="30" r="16" fill="#FFFFFF" fill-opacity="0.2" />
+        <text x="30" y="36" text-anchor="middle" font-size="16">📹</text>
+        <text x="14" y="70" fill="#FFFFFF" font-family="serif" font-size="13" font-weight="800">Live CCTV</text>
+        <text x="14" y="86" fill="#DDD6FE" font-family="sans-serif" font-size="10">Full-Screen Stream</text>
+        <text x="14" y="98" fill="#FFFFFF" font-family="sans-serif" font-size="9" font-weight="700">Port 8080 ▶</text>
+      </g>
+      <g transform="translate(156, 0)">
+        <rect width="144" height="110" rx="14" fill="url(#btnRed)" />
+        <circle cx="30" cy="30" r="16" fill="#FFFFFF" fill-opacity="0.2" />
+        <text x="30" y="36" text-anchor="middle" font-size="16">🚨</text>
+        <text x="14" y="70" fill="#FFFFFF" font-family="serif" font-size="13" font-weight="800">Remote Siren</text>
+        <text x="14" y="86" fill="#FEE2E2" font-family="sans-serif" font-size="10">Dispatch 1.6kHz Alarm</text>
+        <text x="14" y="98" fill="#FFFFFF" font-family="sans-serif" font-size="9" font-weight="700">TRIGGER ⚡</text>
+      </g>
+      <g transform="translate(0, 120)">
+        <rect width="144" height="110" rx="14" fill="url(#btnGreen)" />
+        <circle cx="30" cy="30" r="16" fill="#FFFFFF" fill-opacity="0.2" />
+        <text x="30" y="36" text-anchor="middle" font-size="16">📋</text>
+        <text x="14" y="70" fill="#FFFFFF" font-family="serif" font-size="13" font-weight="800">Alert Log</text>
+        <text x="14" y="86" fill="#D1FAE5" font-family="sans-serif" font-size="10">Intrusion History</text>
+        <text x="14" y="98" fill="#FFFFFF" font-family="sans-serif" font-size="9" font-weight="700">Zoom Photos ▶</text>
+      </g>
+      <g transform="translate(156, 120)">
+        <rect width="144" height="110" rx="14" fill="url(#btnCyan)" />
+        <circle cx="30" cy="30" r="16" fill="#FFFFFF" fill-opacity="0.2" />
+        <text x="30" y="36" text-anchor="middle" font-size="16">👥</text>
+        <text x="14" y="70" fill="#FFFFFF" font-family="serif" font-size="13" font-weight="800">Family Faces</text>
+        <text x="14" y="86" fill="#E0F2FE" font-family="sans-serif" font-size="10">Whitelist Admin</text>
+        <text x="14" y="98" fill="#FFFFFF" font-family="sans-serif" font-size="9" font-weight="700">Manage (3) ▶</text>
+      </g>
+    </g>
+  </g>
+</svg>

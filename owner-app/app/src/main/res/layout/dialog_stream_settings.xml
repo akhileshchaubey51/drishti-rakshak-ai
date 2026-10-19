@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bg_card">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitor App Connection"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Enter the IP Address and Port shown on the Monitor App camera device."
+        android:textColor="@color/text_light_gray"
+        android:textSize="12sp"
+        android:fontFamily="serif" />
+
+    <EditText
+        android:id="@+id/etMonitorIp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="192.168.1.100"
+        android:textColorHint="@color/text_muted"
+        android:textColor="@color/text_white"
+        android:background="@drawable/bg_gradient_card"
+        android:paddingHorizontal="12dp"
+        android:fontFamily="serif"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etMonitorPort"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:hint="8080"
+        android:textColorHint="@color/text_muted"
+        android:textColor="@color/text_white"
+        android:background="@drawable/bg_gradient_card"
+        android:paddingHorizontal="12dp"
+        android:fontFamily="serif"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelSettings"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel"
+            android:textColor="@color/text_white"
+            android:background="@color/bg_card_secondary"
+            android:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:text="Save &amp; Connect"
+            android:textColor="@color/text_white"
+            android:background="@drawable/btn_green_rounded"
+            android:fontFamily="serif" />
+    </LinearLayout>
+</LinearLayout>

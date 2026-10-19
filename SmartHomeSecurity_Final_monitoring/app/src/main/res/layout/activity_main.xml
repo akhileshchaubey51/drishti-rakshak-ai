@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0D14"
+    android:orientation="vertical">
+
+    <!-- TOP SECTION: Genuine Real-World Smart Home Security Hero Banner (165dp) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#1A1D27">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Real-World Genuine Smart Home Architecture Visual -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_security_modern"
+                android:contentDescription="Modern Smart Home Estate" />
+
+            <!-- Dark gradient overlay for contrast -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/overlay_black_gradient" />
+
+            <!-- Reticle frame border: Light Purple -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:background="@drawable/viewfinder_border" />
+
+            <!-- Animated Radar Scanning Line across Home Image -->
+            <View
+                android:id="@+id/viewHomeScannerBeam"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/scanner_beam" />
+
+            <!-- Top Left Status Badge: Light Green -->
+            <TextView
+                android:id="@+id/tvLivePill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:layout_margin="10dp"
+                android:background="@drawable/badge_status_active"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:text="● 24/7 SURVEILLANCE ACTIVE"
+                android:textColor="#00FF88"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <!-- Top Right Guard Badge: Light Purple -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_margin="10dp"
+                android:background="#DD1E1B4B"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:text="🛡️ AI GUARD"
+                android:textColor="#A78BFA"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <!-- Bottom Information Pill on Home Image -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:background="#CC0F1117"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOMESENTINEL SMART ESTATE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLiveStreamInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="📡 CCTV LIVE: http://...:8080/stream | 👥 Whitelist: 0"
+                    android:textColor="#34D399"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- LOWER SECTION: Live Camera Feed with AI Detection Overlay -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#000000">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/previewView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:scaleType="fillCenter" />
+
+            <com.example.smarthomesecurity.DetectionOverlay
+                android:id="@+id/detectionOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <!-- Camera Viewfinder reticle border -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/viewfinder_border"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <!-- Animated Laser Scanning Beam across live camera -->
+            <View
+                android:id="@+id/viewScannerBeam"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginHorizontal="12dp"
+                android:background="@drawable/scanner_beam"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <!-- Bottom Camera HUD bar: Light Green & White -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="10dp"
+                android:background="#DD0F1117"
+                android:orientation="horizontal"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🛡️ AI Radar Tracking Active"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚡ 30 FPS • Port 8080"
+                    android:textColor="#34D399"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

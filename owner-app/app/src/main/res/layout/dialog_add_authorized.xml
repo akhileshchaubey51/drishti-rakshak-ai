@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bg_card">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Authorized Member"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Take photo of family member. AI camera will recognize this face and will NOT sound the siren."
+        android:textColor="@color/accent_green_light"
+        android:textSize="12sp"
+        android:fontFamily="serif" />
+
+    <!-- Photo Preview -->
+    <ImageView
+        android:id="@+id/ivFacePreview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/viewfinder_border"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_camera"
+        android:contentDescription="Member Face" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCapturePhoto"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="📸 Camera"
+            android:textColor="@color/text_white"
+            android:textSize="11sp"
+            android:background="@drawable/btn_purple_rounded"
+            android:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/btnFlipPhoto"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:text="🔄 Flip Mirror"
+            android:textColor="@color/text_white"
+            android:textSize="10sp"
+            android:background="@drawable/btn_purple_rounded"
+            android:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/btnPickGallery"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="🖼️ Gallery"
+            android:textColor="@color/text_white"
+            android:textSize="11sp"
+            android:background="@drawable/btn_purple_rounded"
+            android:fontFamily="serif" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:hint="Full Name (e.g., Father, Priya, Rahul)"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_muted"
+        android:background="@drawable/bg_gradient_card"
+        android:paddingHorizontal="12dp"
+        android:fontFamily="serif"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etRole"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:hint="Relation (e.g. Family, Guard, Maid)"
+        android:textColor="@color/text_white"
+        android:textColorHint="@color/text_muted"
+        android:background="@drawable/bg_gradient_card"
+        android:paddingHorizontal="12dp"
+        android:fontFamily="serif"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel"
+            android:textColor="@color/text_white"
+            android:background="@color/bg_card_secondary"
+            android:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/btnSaveAndSync"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:text="Save &amp; Sync to CCTV"
+            android:textColor="@color/text_white"
+            android:background="@drawable/btn_green_rounded"
+            android:fontFamily="serif" />
+    </LinearLayout>
+
+</LinearLayout>

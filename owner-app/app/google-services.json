@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "248430500881",
+    "project_id": "ownersecurity-b6952",
+    "storage_bucket": "ownersecurity-b6952.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248430500881:android:4d545d86bc68847792e5b0",
+        "android_client_info": {
+          "package_name": "com.example.ownersecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248430500881-i00ftcfd2ged8a8bagdsibklu0g9qulr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYsrxaV_alTHLFnhCvn-XHXXVqxGp0ySM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248430500881-i00ftcfd2ged8a8bagdsibklu0g9qulr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248430500881:android:3cf88785305a36d792e5b0",
+        "android_client_info": {
+          "package_name": "com.example.smarthomesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248430500881-i00ftcfd2ged8a8bagdsibklu0g9qulr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYsrxaV_alTHLFnhCvn-XHXXVqxGp0ySM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248430500881-i00ftcfd2ged8a8bagdsibklu0g9qulr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

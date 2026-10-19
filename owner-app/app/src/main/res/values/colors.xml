@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Palette: Purple, Green, White -->
+    <color name="primary_purple">#7C3AED</color>
+    <color name="primary_purple_dark">#5B21B6</color>
+    <color name="primary_purple_light">#A78BFA</color>
+    <color name="accent_green">#10B981</color>
+    <color name="accent_green_dark">#047857</color>
+    <color name="accent_green_light">#34D399</color>
+    <color name="neon_green">#00FF88</color>
+    <color name="alert_red">#EF4444</color>
+    <color name="alert_red_glow">#FF3B30</color>
+    <color name="warning_amber">#F59E0B</color>
+
+    <!-- Surfaces & Neutrals -->
+    <color name="bg_dark">#0F1117</color>
+    <color name="bg_card">#1A1D27</color>
+    <color name="bg_card_secondary">#222634</color>
+    <color name="bg_card_purple">#24143D</color>
+    <color name="bg_card_green">#062A1F</color>
+    <color name="border_purple">#3B2966</color>
+    <color name="border_green">#0E4A35</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_light_gray">#CBD5E1</color>
+    <color name="text_muted">#64748B</color>
+
+    <!-- Overlay & Translucent -->
+    <color name="overlay_black_60">#99000000</color>
+    <color name="purple_overlay_30">#4D7C3AED</color>
+    <color name="green_overlay_30">#4D10B981</color>
+    <color name="red_overlay_40">#66EF4444</color>
+</resources>

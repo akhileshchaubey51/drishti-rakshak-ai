@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" width="1200" height="650">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A10" />
+      <stop offset="100%" stop-color="#121826" />
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151A29" />
+      <stop offset="100%" stop-color="#0F131F" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#00FF88" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="650" fill="url(#bgGrad)" />
+
+  <!-- Grid overlay -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="650" />
+    <line x1="400" y1="0" x2="400" y2="650" />
+    <line x1="600" y1="0" x2="600" y2="650" />
+    <line x1="800" y1="0" x2="800" y2="650" />
+    <line x1="1000" y1="0" x2="1000" y2="650" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="180" height="28" rx="14" fill="#00FF88" fill-opacity="0.12" stroke="#00FF88" stroke-width="1.2" />
+    <circle cx="14" cy="14" r="5" fill="#00FF88" />
+    <text x="28" y="19" fill="#00FF88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">DUAL-APP ECOSYSTEM</text>
+    
+    <text x="0" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="0.5">DrishtiRakshak AI • End-to-End Architecture</text>
+    <text x="0" y="90" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15">On-Device Edge AI Computer Vision + Cloud Image Storage + Realtime Event Bus + Mobile Command</text>
+  </g>
+
+  <!-- Node 1: Monitoring Device -->
+  <g transform="translate(60, 180)">
+    <rect width="320" height="420" rx="18" fill="url(#cardGrad1)" stroke="#A78BFA" stroke-width="2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="320" height="8" rx="4" fill="url(#purpleGrad)" />
+
+    <circle cx="45" cy="45" r="22" fill="#7C3AED" fill-opacity="0.25" stroke="#A78BFA" stroke-width="1.5" />
+    <text x="45" y="52" text-anchor="middle" font-size="20">📷</text>
+    <text x="80" y="42" fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="700">Monitoring Device</text>
+    <text x="80" y="60" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="600">SMART CCTV SENTINEL</text>
+
+    <g transform="translate(20, 95)" font-family="sans-serif" font-size="13">
+      <rect x="0" y="0" width="280" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="26" r="6" fill="#00FF88" />
+      <text x="35" y="24" fill="#FFFFFF" font-weight="600">CameraX 60 FPS Capture</text>
+      <text x="35" y="40" fill="#94A3B8" font-size="11">YUV420_888 Real-Time Image Stream</text>
+
+      <rect x="0" y="62" width="280" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="88" r="6" fill="#A78BFA" />
+      <text x="35" y="86" fill="#FFFFFF" font-weight="600">MobileNet Face Detection</text>
+      <text x="35" y="102" fill="#94A3B8" font-size="11">Multi-Scale Crop &amp; Mirror Tolerance</text>
+
+      <rect x="0" y="124" width="280" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="150" r="6" fill="#00FF88" />
+      <text x="35" y="148" fill="#FFFFFF" font-weight="600">ZNCC Embedding Matcher</text>
+      <text x="35" y="164" fill="#94A3B8" font-size="11">Authorized Whitelist Verification</text>
+
+      <rect x="0" y="186" width="280" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="212" r="6" fill="#38BDF8" />
+      <text x="35" y="210" fill="#FFFFFF" font-weight="600">NanoHTTPD MJPEG Server</text>
+      <text x="35" y="226" fill="#94A3B8" font-size="11">Port 8080 24/7 LAN Video Stream</text>
+
+      <rect x="0" y="248" width="280" height="52" rx="10" fill="#0B0F19" stroke="#EF4444" stroke-width="1" />
+      <circle cx="20" cy="274" r="6" fill="#EF4444" />
+      <text x="35" y="272" fill="#FFFFFF" font-weight="600">Hardware Siren Alarm</text>
+      <text x="35" y="288" fill="#FCA5A5" font-size="11">AudioTrack 1.6kHz Police Pulse</text>
+    </g>
+  </g>
+
+  <!-- Connectors from Node 1 to Cloud -->
+  <g stroke="#00FF88" stroke-width="2.5" fill="none" stroke-dasharray="6,4">
+    <path d="M 380,310 L 460,310" />
+    <polygon points="465,310 455,305 455,315" fill="#00FF88" />
+  </g>
+  <text x="420" y="300" text-anchor="middle" fill="#00FF88" font-family="sans-serif" font-size="11" font-weight="700">HTTPS / REST</text>
+
+  <!-- Node 2: Cloud Services -->
+  <g transform="translate(470, 180)">
+    <rect width="280" height="420" rx="18" fill="url(#cardGrad1)" stroke="#00FF88" stroke-width="2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="280" height="8" rx="4" fill="url(#greenGrad)" />
+
+    <circle cx="45" cy="45" r="22" fill="#059669" fill-opacity="0.25" stroke="#00FF88" stroke-width="1.5" />
+    <text x="45" y="52" text-anchor="middle" font-size="20">☁️</text>
+    <text x="80" y="42" fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="700">Cloud Backend</text>
+    <text x="80" y="60" fill="#00FF88" font-family="sans-serif" font-size="12" font-weight="600">STORAGE &amp; REALTIME BUS</text>
+
+    <g transform="translate(18, 95)" font-family="sans-serif" font-size="13">
+      <rect x="0" y="0" width="244" height="65" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <text x="18" y="28" fill="#FFFFFF" font-weight="700">Cloudinary Image CDN</text>
+      <text x="18" y="46" fill="#94A3B8" font-size="11">High-Res Intruder Photo Upload</text>
+      <text x="18" y="58" fill="#38BDF8" font-size="10">Preset: smart_home_security</text>
+
+      <rect x="0" y="78" width="244" height="75" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <text x="18" y="104" fill="#FFFFFF" font-weight="700">Firebase Firestore</text>
+      <text x="18" y="122" fill="#94A3B8" font-size="11">Collection: securityEvents</text>
+      <text x="18" y="136" fill="#94A3B8" font-size="11">Collection: authorizedUsers</text>
+      <text x="18" y="148" fill="#00FF88" font-size="10">Real-time Snapshot Listeners</text>
+
+      <rect x="0" y="165" width="244" height="65" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <text x="18" y="193" fill="#FFFFFF" font-weight="700">Firebase Auth</text>
+      <text x="18" y="211" fill="#94A3B8" font-size="11">Anonymous Tokens &amp; Owner UID</text>
+      <text x="18" y="223" fill="#A78BFA" font-size="10">Secure Multi-Tenant Isolation</text>
+    </g>
+  </g>
+
+  <!-- Connectors from Cloud to Node 3 -->
+  <g stroke="#A78BFA" stroke-width="2.5" fill="none" stroke-dasharray="6,4">
+    <path d="M 750,310 L 830,310" />
+    <polygon points="835,310 825,305 825,315" fill="#A78BFA" />
+  </g>
+  <text x="790" y="300" text-anchor="middle" fill="#A78BFA" font-family="sans-serif" font-size="11" font-weight="700">REALTIME SYNC</text>
+
+  <!-- Node 3: Owner Device -->
+  <g transform="translate(840, 180)">
+    <rect width="300" height="420" rx="18" fill="url(#cardGrad1)" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.8" />
+    <rect x="0" y="0" width="300" height="8" rx="4" fill="url(#purpleGrad)" />
+
+    <circle cx="45" cy="45" r="22" fill="#A78BFA" fill-opacity="0.25" stroke="#FFFFFF" stroke-width="1.5" />
+    <text x="45" y="52" text-anchor="middle" font-size="20">📱</text>
+    <text x="80" y="42" fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="700">Owner Smartphone</text>
+    <text x="80" y="60" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">COMMAND &amp; CONTROL</text>
+
+    <g transform="translate(18, 95)" font-family="sans-serif" font-size="13">
+      <rect x="0" y="0" width="264" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="26" r="6" fill="#EF4444" />
+      <text x="35" y="24" fill="#FFFFFF" font-weight="600">Instant Intrusion Push</text>
+      <text x="35" y="40" fill="#94A3B8" font-size="11">Heads-Up Alert + Photo Preview</text>
+
+      <rect x="0" y="62" width="264" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="88" r="6" fill="#00FF88" />
+      <text x="35" y="86" fill="#FFFFFF" font-weight="600">Pinch-to-Zoom Detail Modal</text>
+      <text x="35" y="102" fill="#94A3B8" font-size="11">High-Res Face Inspection &amp; Pan</text>
+
+      <rect x="0" y="124" width="264" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="150" r="6" fill="#38BDF8" />
+      <text x="35" y="148" fill="#FFFFFF" font-weight="600">Live CCTV Stream Viewer</text>
+      <text x="35" y="164" fill="#94A3B8" font-size="11">RTSP / MJPEG Real-Time Stream</text>
+
+      <rect x="0" y="186" width="264" height="52" rx="10" fill="#0B0F19" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="212" r="6" fill="#A78BFA" />
+      <text x="35" y="210" fill="#FFFFFF" font-weight="600">Authorized Whitelist Admin</text>
+      <text x="35" y="226" fill="#94A3B8" font-size="11">Face Registration &amp; Cloud Sync</text>
+
+      <rect x="0" y="248" width="264" height="52" rx="10" fill="#0B0F19" stroke="#00FF88" stroke-width="1" />
+      <circle cx="20" cy="274" r="6" fill="#00FF88" />
+      <text x="35" y="272" fill="#FFFFFF" font-weight="600">Room SQLite Local Cache</text>
+      <text x="35" y="288" fill="#94A3B8" font-size="11">Offline Availability &amp; History</text>
+    </g>
+  </g>
+
+</svg>
